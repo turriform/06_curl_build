@@ -25,7 +25,8 @@ OPTIONS="--with-openssl
         --disable-smtp 
         --disable-gopher  
         --disable-mqtt  
-        --disable-docs"
+        --disable-docs
+        --disable-manual"
 
 
 mkdir -p $download_folder $third_party_curl_folder
@@ -52,7 +53,7 @@ cd $extracted
 echo `pwd`
 
 
-echo ./configure --prefix=$(pwd)/../../$third_party_curl_folder $OPTIONS
+./configure --prefix=$(pwd)/../../$third_party_curl_folder $OPTIONS
 make
 make install -j
 

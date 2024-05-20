@@ -23,7 +23,7 @@
 #
 ###########################################################################
 
-prefix="/home/mumu/Документы/CEnv/HomeworkOtus/06_curl_build/download/curl-8.7.1/../../third_party/curl-8.7.1"
+prefix="/home/mumu/Документы/CEnv/OtusCommit/06_curl_build/download/curl-8.7.1/../../third_party/curl-8.7.1"
 exec_prefix=${prefix}
 includedir=${prefix}/include
 cppflag_curl_staticlib=
@@ -182,7 +182,7 @@ while test $# -gt 0; do
         ;;
 
     --configure)
-        echo " '--prefix=/home/mumu/Документы/CEnv/HomeworkOtus/06_curl_build/download/curl-8.7.1/../../third_party/curl-8.7.1' '--with-openssl' '--enable-http' '--enable-telnet' '--disable-ftp' '--disable-file' '--disable-ldap' '--disable-ldaps' '--disable-rtsp' '--disable-proxy' '--disable-dict' '--disable-tftp' '--disable-pop3' '--disable-imap' '--disable-smb' '--disable-smtp' '--disable-gopher' '--disable-mqtt' '--disable-docs'"
+        echo " '--prefix=/home/mumu/Документы/CEnv/OtusCommit/06_curl_build/download/curl-8.7.1/../../third_party/curl-8.7.1' '--with-openssl' '--enable-http' '--enable-telnet' '--disable-ftp' '--disable-file' '--disable-ldap' '--disable-ldaps' '--disable-rtsp' '--disable-proxy' '--disable-dict' '--disable-tftp' '--disable-pop3' '--disable-imap' '--disable-smb' '--disable-smtp' '--disable-gopher' '--disable-mqtt' '--disable-docs' '--disable-manual'"
         ;;
 
     *)

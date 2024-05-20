@@ -188,7 +188,7 @@ func_exec_program ()
 
   if test -f "$progdir/$program"; then
     # Add our own library path to LD_LIBRARY_PATH
-    LD_LIBRARY_PATH="/home/mumu/Документы/CEnv/HomeworkOtus/06_curl_build/download/curl-8.7.1/lib/.libs:$LD_LIBRARY_PATH"
+    LD_LIBRARY_PATH="/home/mumu/Документы/CEnv/OtusCommit/06_curl_build/download/curl-8.7.1/lib/.libs:$LD_LIBRARY_PATH"
 
     # Some systems cannot cope with colon-terminated LD_LIBRARY_PATH
     # The second colon is a workaround for a bug in BeOS R4 sed
