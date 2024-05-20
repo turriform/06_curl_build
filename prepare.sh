@@ -52,7 +52,7 @@ cd $extracted
 echo `pwd`
 
 
-echo ./configure --prefix=$(pwd)/../../$third_party_curl_folder $OPTIONS
+./configure --prefix=$(pwd)/../../$third_party_curl_folder $OPTIONS
 make
 make install -j
 
